@@ -1,4 +1,5 @@
 
+#nota extra: no funciona con valores muy altos (por python)
 def solucion():
     #n es el numero de filas y m es el numero de columnas 
     n , m = [int(x) for x in input().split()]
