@@ -15,6 +15,7 @@ queue = []
 #Lista de predecedores(primer padre de un nodo)
 prev = [None] * len(adj)
 
+#Necesitamos un inicio y un fin
 start = 0
 end = 6
 
@@ -33,6 +34,7 @@ def bfs():
                 queue.append(u)
                 #añado a v como el padre de u
                 prev[u] = v
+
 '''
 def bfs():
     goal = true
