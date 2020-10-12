@@ -1,6 +1,6 @@
-import sys, resource
-resource.setrlimit(resource.RLIMIT_STACK, (2**32, -1))
-sys.setrecursionlimit(10**9)
+#import sys, resource
+#resource.setrlimit(resource.RLIMIT_STACK, (2**32, -1))
+#sys.setrecursionlimit(10**9)
 adj = []
 
 #n es el numero de vertices y m es el numero de aristas 
